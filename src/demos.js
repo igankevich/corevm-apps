@@ -14,39 +14,20 @@
 
 export default [
     {
-        id: 'monitor',
+        id: 'corevm-monitor',
         name: 'CoreVM Monitor',
         description:
             'Watch a CoreVM service execute in real time: frames, audio, input and per-block statistics.',
-        url: 'monitor/',
+        url: 'corevm-monitor/',
         tags: ['monitor', 'stats'],
         status: 'live',
     },
     {
-        id: 'quake',
-        name: 'Quake',
-        description:
-            'The classic id Software engine compiled for RISC-V and running inside CoreVM on-chain.',
-        url: 'quake/',
-        tags: ['game', 'c'],
-        status: 'live',
-    },
-    {
-        id: 'busybox',
-        name: 'BusyBox Shell',
-        description:
-            'An interactive BusyBox userland running on the CoreVM musl port, with a terminal in the browser.',
-        url: 'busybox/',
-        tags: ['shell', 'musl'],
-        status: 'beta',
-    },
-    {
-        id: 'hello',
-        name: 'Hello, CoreVM',
-        description:
-            'Minimal C, C++ and Rust programs built with the CoreVM SDK. The smallest possible on-chain app.',
-        url: 'hello/',
-        tags: ['c', 'c++', 'rust'],
+        id: 'jam-radio',
+        name: 'JAM radio',
+        description: 'Live audio stream with donations from the viewers.',
+        url: 'jam-radio/',
+        tags: [],
         status: 'soon',
     },
 ];
