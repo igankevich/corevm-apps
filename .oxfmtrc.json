@@ -1,0 +1,11 @@
+{
+    "$schema": "./node_modules/oxfmt/configuration_schema.json",
+    "ignorePatterns": [],
+    "htmlWhitespaceSensitivity": "strict",
+    "singleQuote": true,
+    "printWidth": 100,
+    "tabWidth": 4,
+    "singleAttributePerLine": false,
+    "objectWrap": "collapse",
+    "proseWrap": "always"
+}
