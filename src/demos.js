@@ -28,6 +28,6 @@ export default [
         description: 'Live audio stream with donations from the viewers.',
         url: 'jam-radio/',
         tags: [],
-        status: 'soon',
+        status: 'beta',
     },
 ];
